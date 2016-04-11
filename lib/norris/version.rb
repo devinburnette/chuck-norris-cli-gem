@@ -1,3 +1,3 @@
-module ChuckNorris
+module Norris
   VERSION = "0.1.0"
 end

@@ -1,4 +1,4 @@
-class ChuckNorris::Joke
+class Norris::Joke
 
   attr_accessor :firstName, :lastName, :category, :all, :total, :categories, :random, :fetch
 

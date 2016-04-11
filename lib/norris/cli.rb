@@ -1,4 +1,4 @@
-class ChuckNorris::CLI
+class Norris::CLI
   def call
     start
   end
@@ -24,14 +24,14 @@ class ChuckNorris::CLI
           puts ""
           choice = gets.chomp.downcase
           if choice == 'nerdy'
-            puts ChuckNorris::Joke.random(category="nerdy")
+            puts Norris::Joke.random(category="nerdy")
           elsif choice == 'explicit'
-            puts ChuckNorris::Joke.random(category="explicit")
+            puts Norris::Joke.random(category="explicit")
           elsif choice == 'random'
-            puts ChuckNorris::Joke.random
+            puts Norris::Joke.random
           elsif choice.match /^\d{1,3}$/
             if choice.to_i > 0 && choice.to_i < 546
-              puts ChuckNorris::Joke.fetch(choice)
+              puts Norris::Joke.fetch(choice)
             else
               puts "Not a valid joke number..."
               exit

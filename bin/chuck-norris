@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require './lib/chuck_norris'
+require './lib/norris'
 
-ChuckNorris::CLI.new.call
+Norris::CLI.new.call
