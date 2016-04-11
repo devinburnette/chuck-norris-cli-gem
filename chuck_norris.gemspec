@@ -26,5 +26,4 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "htmlentities"
   spec.add_runtime_dependency "json"
-  spec.add_runtime_dependency "open-uri"
 end
