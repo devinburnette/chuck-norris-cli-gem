@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'norris'
+
+Norris::CLI.new.call
