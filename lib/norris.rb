@@ -2,6 +2,6 @@ require 'open-uri'
 require 'json'
 require 'htmlentities'
 
-require "norris/version"
-require "norris/cli"
-require "norris/joke"
+require_relative "./norris/version"
+require_relative "./norris/cli"
+require_relative "./norris/joke"
