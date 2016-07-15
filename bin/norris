@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'norris'
+require_relative '../lib/norris'
 
 Norris::CLI.new.call
